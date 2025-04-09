@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Archive - Roto Phantoms</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0000AA; /* Blue background */
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* Archive section styling */
+        .archive-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+            padding: 10px;
+        }
+
+        /* Individual event block styling */
+        .event-block {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 280px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            max-width: 300px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .event-block:hover {
+            transform: translateY(-10px);
+        }
+
+        .event-block img {
+            width: 100%;
+            height: 180px; /* Adjust the height for better image clarity */
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .event-block img:hover {
+            transform: scale(1.05);
+        }
+
+        .event-block h3 {
+            font-size: 1.4em;
+            color: #fff;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .event-block p {
+            font-size: 1em;
+            color: #e0e0e0;
+            line-height: 1.5;
+        }
+
+        /* Button container */
+        .button-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #001a66;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: #0000AA;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Archive - Roto Phantoms</h1>
+
+    <!-- Archive Events -->
+    <div class="archive-section">
+        <!-- Event 1: Visiting Oman International Bookfair -->
+        <div class="event-block">
+            <img src="Book.jpeg" alt="Visiting Oman International Bookfair">
+            <h3>Visiting Oman International Bookfair</h3>
+            <p>Our team had the opportunity to visit the Oman International Bookfair, where we explored new literature and technologies. It was a fantastic opportunity to learn and network with like-minded individuals.</p>
+        </div>
+
+        <!-- Event 2: Meeting with International Teams from First Global Challenge -->
+        <div class="event-block">
+            <img src="Slove.jpeg" alt="Meeting with International Teams from First Global Challenge">
+            <h3>Meeting with International Teams</h3>
+            <p>We had the chance to meet and interact with international teams from the First Global Challenge. This event allowed us to share experiences, learn from one another, and develop strong connections in the robotics community.</p>
+        </div>
+
+        <!-- Event 3: Winning Second Place in 2024 Local Qualifiers -->
+        <div class="event-block">
+            <img src="Local.jpeg" alt="Winning Second Place in 2024 Local Qualifiers">
+            <h3>Winning Second Place in 2024 Local Qualifiers</h3>
+            <p>Our hard work paid off when we won second place in the 2024 local qualifiers. It was a memorable experience for the team, and we're proud of our achievements in this prestigious competition.</p>
+        </div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="team.html" class="button">Team</a>
+        <a href="policy.html" class="button">Policy</a>
+    </div>
+
+</body>
+</html>

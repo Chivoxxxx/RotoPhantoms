@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Policy - Roto Phantoms</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0000AA;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            background-color: #0000AA;
+            flex-direction: column;
+            font-size: 16px;
+            overflow: auto; /* Prevents overflow */
+        }
+
+        h1 {
+            margin: 0;
+            padding: 10px;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        /* Styling for the policy details */
+        .policy-info {
+            width: 90%;
+            max-width: 700px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            line-height: 1.5; /* Adjust line height for better readability */
+            text-align: left; /* Ensure the content is aligned to the left */
+            margin-bottom: 40px; /* Add space at the bottom */
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Title styling */
+        .policy-info b {
+            font-size: 1.3em;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Paragraph styling */
+        .policy-info p {
+            font-size: 1em;
+            color: #e0e0e0;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Buttons container */
+        .button-container {
+      position: absolute;
+      bottom: 40px;
+      text-align: center;
+    }
+
+    /* Button styles */
+    .button {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      border: 1px solid white;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      background-color: #001a66;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: #0000AA;
+    }
+    </style>
+</head>
+<body>
+    <h1>Team Policies - Roto Phantoms</h1>
+
+    <!-- Policy Information -->
+    <div class="policy-info">
+        <b>Team Code of Conduct:</b>
+        <p>All team members must adhere to the values of teamwork, respect, and collaboration. We aim to build a positive environment where every member’s input is valued. Ethical conduct, punctuality, and dedication are expected at all times.</p>
+
+        <b>Meeting Attendance Policy:</b>
+        <p>Team meetings are mandatory. If a team member is unable to attend a meeting, prior notice must be given to the team leader. It’s important that every member stays up-to-date on team activities and progress.</p>
+
+        <b>Equipment Handling:</b>
+        <p>All team members must follow the guidelines for handling robotics equipment. Mishandling or neglecting the proper care of the equipment may result in disciplinary actions.</p>
+
+        <b>Collaboration and Communication:</b>
+        <p>Team members are expected to communicate openly and professionally. Collaboration tools (e.g., Slack, Google Drive) should be used for project-related discussions and document sharing. All members are encouraged to contribute and share ideas.</p>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="team.html" class="button">Team</a>
+        <a href="policy.html" class="button">Policy</a>
+    </div>
+
+</body>
+</html>

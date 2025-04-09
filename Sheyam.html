@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Team Member - Roto Phantoms</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0000AA;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            background-color: #0000AA;
+            flex-direction: column;
+            font-size: 18px;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        /* Styling for the team member details */
+        .member-info {
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            line-height: 1.6; /* Adjust line height for better readability */
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Title styling */
+        .member-info b {
+            font-size: 1.5em;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Paragraph styling */
+        .member-info p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Buttons container */
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #001a66;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: #0000AA;
+        }
+    </style>
+</head>
+<body>
+    <h1>Team Member - Sheyam</h1>
+
+    <!-- Team Member Information -->
+    <div class="member-info">
+        <b>Role: Designer & Content Creator</b> 
+        <p>Sheyam is a fourteen-year-old with a wide range of interests that highlight her curiosity and enthusiasm for learning. In her free time, she enjoys engaging in creative activities like cooking, reading, writing, and painting. These hobbies not only allow Sheyam to express herself but also help her continuously develop her skills.
+
+            Beyond her creative pursuits, Sheyam is also passionate about sports. She actively participates in swimming, badminton, volleyball, and basketball, all of which help her stay active, disciplined, and focused. Through sports, Sheyam has learned the value of teamwork, perseverance, and maintaining a healthy lifestyle.
+            
+            One of Sheyam's strongest qualities is her ability to think creatively. She has a keen interest in designing, innovating, and editing, whether through visual projects or written content. Sheyam enjoys transforming ideas into something meaningful and unique and is always eager to take on new challenges to grow both personally and academically.
+            
+            </p>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="team.html" class="button">Team</a>
+        <a href="policy.html" class="button">Policy</a>
+    </div>
+
+</body>
+</html>

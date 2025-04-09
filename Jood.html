@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Team Member - Roto Phantoms</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #0000AA;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            background-color: #0000AA;
+            flex-direction: column;
+            font-size: 18px;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            font-size: 36px;
+            text-align: center;
+        }
+
+        /* Styling for the team member details */
+        .member-info {
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            line-height: 1.6; /* Adjust line height for better readability */
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Title styling */
+        .member-info b {
+            font-size: 1.5em;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Paragraph styling */
+        .member-info p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Buttons container */
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Button styles */
+        .button {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #001a66;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: #0000AA;
+        }
+    </style>
+</head>
+<body>
+    <h1>Team Member - Jood</h1>
+
+    <!-- Team Member Information -->
+    <div class="member-info">
+        <b>Role: Team Leader</b> 
+        <p>Jood is a talented robotics leader, programmer, and innovator who began her journey at the age of seven by winning first place in the FIRST LEGO League Jr. in Amman, Jordan. She has since taken on roles as a team leader, spokesperson, and programmer, competing in events such as the Oman Seaperch Challenge and mentoring younger students in robotics and programming.
+
+            Skilled in EV3 and Java programming, Jood has built robots, created games, and designed apps. She also enjoys hands-on projects, such as building gadgets with Arduino Uno. As a confident public speaker, Jood has presented to figures like the Prince of Jordan and the Prime Minister of Education.
+            
+            Beyond robotics, Jood has a wide range of interests, including reading, learning, walking, fitness, music, and animals. These diverse passions and skills contribute to Jood's creative and driven nature.</p>
+    </div>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+        <a href="index.html" class="button">Home</a>
+        <a href="team.html" class="button">Team</a>
+        <a href="policy.html" class="button">Policy</a>
+    </div>
+
+</body>
+</html>

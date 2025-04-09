@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Achievements - Roto Phantoms</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0000AA;
+      color: white;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content-wrapper {
+      width: 100%;
+      max-width: 1200px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .achievement-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .achievement-block {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .achievement-block:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.7);
+    }
+
+    .achievement-block img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .achievement-block img:hover {
+      transform: scale(1.05);
+    }
+
+    .achievement-block b {
+      font-size: 1.3em;
+      color: #fff;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .achievement-block p {
+      font-size: 1em;
+      color: #e0e0e0;
+      margin-bottom: 10px;
+    }
+
+    .additional-achievements {
+      margin-top: 15px;
+    }
+
+    .additional-achievements .achievement-img {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .additional-achievements .achievement-img:hover {
+      transform: scale(1.05);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      width: 100%;
+    }
+
+    .button {
+      padding: 10px 20px;
+      border: 1px solid white;
+      color: white;
+      text-decoration: none;
+      background-color: #001a66;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: #0000AA;
+    }
+  </style>
+</head>
+<body>
+  <div class="content-wrapper">
+    <h1>Achievements - Roto Phantoms</h1>
+
+    <div class="achievement-container">
+      <!-- Jood -->
+      <div class="achievement-block">
+        <b>Jood AwladThani</b>
+        <img src="Jood.jpeg" alt="Jood's Achievement">
+        <p>1st Place - FIRST LEGO League Jr., Amman, Jordan</p>
+      </div>
+
+      <!-- Sura -->
+      <div class="achievement-block">
+        <b>Sura Ambusaidi</b>
+        <img src="Sura2.png" alt="Sura's Achievement">
+        <p>2nd Place - Water Robot, Science Festival</p>
+        <div class="additional-achievements">
+          <img class="achievement-img" src="Sura3.jpeg" alt="Sura's Additional Achievement">
+          <p>4th Place - Robotics and AI (White and Black Boxes)</p>
+        </div>
+      </div>
+
+      <!-- Sheyam -->
+      <div class="achievement-block">
+        <b>Sheyam Al-Busaidi</b>
+        <img src="Sheyam4.jpeg" alt="Sheyam's Achievement">
+        <p>1st Place - Innovation Competition, Muscat 2024</p>
+        <div class="additional-achievements">
+          <img class="achievement-img" src="Sheyam1.jpeg" alt="Sheyam's Achievement 2">
+          <p>2nd Place - Best Future City Design in Minecraft, Sultanate 2023</p>
+          <img class="achievement-img" src="Sheyam5.jpg" alt="Sheyam's Achievement 3">
+          <p>2nd Place - Among the Talented, Sultanate 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="button-container">
+      <a href="index.html" class="button">Home</a>
+      <a href="team.html" class="button">Team</a>
+      <a href="policy.html" class="button">Policy</a>
+    </div>
+  </div>
+</body>
+</html>
